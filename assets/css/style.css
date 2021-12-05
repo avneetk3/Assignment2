@@ -1,0 +1,341 @@
+/*Adding comments to CSS and trying to improve it 
+A new CSS style is added with the tag: Avneet:  and ends with :Avneet*/
+
+
+/*This for universal styling of page*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Giving background color to body of the page*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Setting cladd header  for padding, font-type, background color and added display*/
+.header {
+    
+    border-style: solid;
+    font-size: 25px;
+    font-style: italic;
+    background: radial-gradient(gray,black);
+    margin: 0;
+}
+.name{
+    width: 300px;
+    padding: 50px;
+    float: right;
+    background-color: lightblue;
+    color: black;
+    font-size: 60px;
+    
+  }
+
+  .header h1 .start
+  {
+      margin-left:0;
+      float: left;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 100px;
+      color: lightblue;
+      
+  }
+  
+
+/*Setting size and display for h1 in class header*/
+.header h1 {
+    font-size: 48px;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+ 
+/*Setting style fot all div in class header*/
+.header div {
+    
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+
+/*Setting style for unsorted list in div of class header*/
+/*Setting CSS like : Dispaly and margin for li elements in unsorted list in div of class header*/
+.header div ul li {
+    display: flex;
+    margin-left: 100px;
+    color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    float: left;
+    text-align: right;
+    scroll-margin-bottom: 10px;
+}
+
+.header nav ul li a {
+    display: inline;
+    text-decoration:black;
+    color: lightblue;
+    flex-wrap: wrap;
+    text-decoration: underline;
+
+}
+.header nav {
+    margin: 50px 0;
+  }
+
+nav .start{
+
+    float: left;
+    display : flex;
+    font-size: 150%; 
+    font-weight: bolder;
+}
+
+.subtitle{
+    position: relative;
+    background-image: url("../images/zigzag.jpg");
+    background-size: auto;
+    background-repeat:repeat;
+    padding: 25px;
+    height:100px;
+}
+.subTitle h2{
+    position: absolute;
+    display:flex;
+    margin-left: 950px;
+    text-align: right;
+    margin-top: 30px;
+    background-color: black;
+    color: lightblue;
+}
+
+.about-me{
+
+    position: relative;
+    display: flex;
+    color: purple;
+    height:auto;
+
+}
+
+.work{
+
+    position: absolute;
+    display: flex;
+    color: purple;
+    height:auto;
+    margin-top: 100px;
+    height: 2000px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.project1{
+    position: relative;
+    background-image: url("../images/refactor.jpg");
+    background-size: cover;
+    background-repeat:repeat;
+    padding: 25px;
+    height:350px;
+    width: 500px;
+    background-position: center;
+    margin-left: 50px;
+}
+
+.project1 .imag1 .imag2:hover{
+
+    transform: scale(1.2);
+
+}
+
+.project1 p{
+    position: absolute;
+    display:flex;
+    text-align: right;
+    margin-top: 300px;
+    background-color: black;
+    color: lightblue;
+}
+
+.project2{
+    position: relative;
+    background-image: url("../images/PasswordGen.jpg");
+    background-size: cover;
+    background-repeat:repeat;
+    padding: 25px;
+    height:350px;
+    width: 500px;
+    background-position: center;
+   
+    margin-left: 50px;
+}
+
+.project2 .imag3 .imag4:hover{
+
+    transform: scale(1.2);
+
+}
+
+.project2 p{
+    position: absolute;
+    display:flex;
+    text-align: right;
+    margin-top: 300px;
+    background-color: black;
+    color: lightblue;
+}
+
+.project3{
+    position: absolute;
+    display: flex;
+    flex: 1;
+    background-image: url("../images/Quiz.jpg");
+    background-size: cover;
+    background-repeat:repeat;
+    padding: 25px;
+    height:350px;
+    width: 500px;
+    background-position: center;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-top: 400px;
+}
+
+.project3 .imag5 .imag6:hover{
+
+    transform: scale(1.2);
+
+}
+
+.project3 p{
+    position: absolute;
+    display:flex;
+    text-align: right;
+    margin-top: 300px;
+    background-color: black;
+    color: lightblue;
+}
+
+
+.project4{
+    position: relative;
+    display: flex;
+    background-image: url("../images/Schedular.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+    height:350px;
+    width: 500px;
+    background-position: center;
+    align-items: flex-start;
+    margin-top: 400px;
+    margin-right: 50px;
+}
+
+.project4 .imag7 .imag8:hover{
+
+    transform: scale(1.2);
+
+}
+
+.project4 p{
+    position: absolute;
+    display:flex;
+    text-align: right;
+    margin-top: 300px;
+    background-color: black;
+    color: lightblue;
+}
+
+.project5{
+    position: absolute;
+    display: flex;
+    background-image: url("../images/WeatherApp.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+    height:350px;
+    width: 500px;
+    background-position: center;
+    align-items: flex-start;
+    margin-top: 400px;
+    margin-right: 50px;
+}
+
+.project5 .imag9 .imag10:hover{
+
+    transform: scale(1.2);
+
+}
+
+.project5 p{
+    position: absolute;
+    display:flex;
+    text-align: right;
+    margin-top: 300px;
+    background-color: black;
+    color: lightblue;
+}
+
+
+.project6{
+    position: relative;
+    display: flex;
+    background-image: url("../images/GetFit.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+    height:350px;
+    width: 500px;
+    background-position: center;
+    align-items: flex-start;
+    margin-top: 400px;
+    margin-right: 50px;
+}
+
+.project6 .imag11 .imag12:hover{
+
+    transform: scale(1.2);
+
+}
+
+.project6 p{
+    position: absolute;
+    display:flex;
+    text-align: right;
+    margin-top: 300px;
+    background-color: black;
+    color: lightblue;
+}
+
+
+.vertical
+{
+
+    border-left: 6px solid purple;
+    height: 200px;
+    position:absolute;
+    left: 100px
+}
+
+
+.contact-me{
+
+    position: relative;
+    display: flex;
+    color: purple;
+    height:auto;
+    margin-top: 2000px;
+
+}
+aside {
+    flex: 1;
+    background-color: #b9c6ae;
+    margin: 0;
+    text-align: left;
+    font-family:sans-serif ;
+  }
