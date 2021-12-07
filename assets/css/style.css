@@ -161,7 +161,7 @@ nav .start{
 
 .project2{
     position: absolute;
-    background-image: url("../images/PasswordGen.jpg");
+    background-image: url("../images/PasswordGen.JPG");
     background-size: contain;
     background-repeat:repeat;
     padding: 25px;
@@ -191,7 +191,7 @@ nav .start{
     position: relative;
     display: flex;
     flex: 1;
-    background-image: url("../images/Quiz.jpg");
+    background-image: url("../images/Quiz.JPG");
     background-size: cover;
     background-repeat:repeat;
     padding: 25px;
@@ -222,7 +222,7 @@ nav .start{
 .project4{
     position: absolute;
     display: flex;
-    background-image: url("../images/Schedular.jpg");
+    background-image: url("../images/Schedular.JPG");
     background-size: cover;
     background-repeat:no-repeat;
     
@@ -252,7 +252,7 @@ nav .start{
 .project5{
     position: absolute;
     display: flex;
-    background-image: url("../images/WeatherApp.jpg");
+    background-image: url("../images/WeatherApp.JPG");
     background-size: cover;
     background-repeat:no-repeat;
     
@@ -283,7 +283,7 @@ nav .start{
 .project6{
     position: relative;
     display: flex;
-    background-image: url("../images/getfit.png");
+    background-image: url("../images/getfit.PNG");
     background-size: cover;
     background-repeat:no-repeat;
     
