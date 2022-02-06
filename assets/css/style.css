@@ -283,7 +283,22 @@ nav .start{
 .project6{
     position: relative;
     display: flex;
-    background-image: url("../images/getfit.PNG");
+    background-image: url("../images/getfit.png");
+
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+    height:350px;
+    width: 500px;
+    background-position: center;
+    align-items: flex-start;
+    margin-top: 900px;
+    margin-left: -500px;
+}
+.project7{
+    position: relative;
+    display: flex;
+    background-image: url("../images/SellQuickerApp.JPG");
     background-size: cover;
     background-repeat:no-repeat;
     
@@ -301,6 +316,11 @@ nav .start{
 
 }
 
+.project7:hover{
+
+    transform: scale(1.2);
+
+}
 .project6 p{
     position: absolute;
     display:flex;
@@ -310,6 +330,14 @@ nav .start{
     color: lightblue;
 }
 
+.project7 p{
+    position: absolute;
+    display:flex;
+    text-align: right;
+    margin-top: 300px;
+    background-color: black;
+    color: lightblue;
+}
 
 .vertical
 {
